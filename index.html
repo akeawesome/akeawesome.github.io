@@ -15,7 +15,7 @@
         border-bottom: solid rgba(255, 87, 231, 1);
       }
       .menu{
-        background: rgba(255, 87, 231, 1);
+        background: rgba(255, 87, 231, 0.5);
         overflow: auto;
       }
       body{
@@ -36,6 +36,31 @@
         list-style-type: none;
         float: left;
         padding: 14px 16px;
+      }
+      .m-list li:hover{
+        background: rgba(255, 87, 231, 0.7);
+        color: white;
+      }
+      .m-head{
+        display: none;
+      }
+      @media (max-width:396px) {
+        .m-head{
+          display: block;
+        }
+        .m-list{
+          display: none;
+        }
+        .menu:hover .m-list{
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 51.2px;
+          background: rgba(255, 87, 231, 0.7);
+        }
+        .m-list li{
+          float: none;
+        }
       }
     </style>
   </head>
