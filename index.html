@@ -1,93 +1,57 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <title>AkeKy</title>
-    <style media="screen">
-      .one{
-        width: 80%;
-        margin: auto;
-      }
-      .menu{
-        background: rgba(255, 87, 231, 0.5);
-        overflow: auto;
-      }
-      body{
-        margin: 0;
-        background: rgba(255, 217, 217, 1);
-      }
-      .m-head{
-        float: right;
-        padding: 14px 16px;
-        font-size: 18px;
-      }
-      .m-list{
-        margin-top: 0;
-        padding-left: 0;
-        font-size: 18px;
-      }
-      .m-list li{
-        list-style-type: none;
-        float: left;
-        padding: 14px 16px;
-      }
-      .m-list li:hover{
-        background: rgba(255, 87, 231, 0.7);
-        color: white;
-      }
-      .m-head{
-        display: none;
-      }
-      .m-list li a{
-        text-decoration: none;
-        color: inherit;
-      }
-      @media (max-width:396px) {
-        .m-head{
-          display: block;
-        }
-        .m-list{
-          display: none;
-        }
-        .menu:hover .m-list{
-          display: block;
-          position: absolute;
-          right: 0;
-          top: 51.2px;
-          background: rgba(255, 87, 231, 0.7);
-        }
-        .m-list li{
-          float: none;
-        }
-      }
-    </style>
   </head>
   <body>
-    <div class="menu">
-      <div class="m-head">
-        เมนู
-      </div>
-        <ul class="m-list">
-          <li><a href="#">หน้าแรก</a></li>
-          <li><a href="#">เกี่ยวกับเรา</a></li>
-          <li><a href="#">ติดต่อ</a></li>
-        </ul>
-    </div>
-    <div class="image">
-      <img src="images/ake1.jpg" width=100%;>
-    </div>
-    <div class="tad">
-      <div class="one">
-        <h1>AkeKy</h1>
-        <p>
-        ชื่อ นายพิสิษฐ   ชนามุยา <br>
-        ชื่อเล่นชื่อ เอก <br>
-        อายุ 17 ปี <br>
-        ชั้นมัธยมศึกษาปีที่ 6/1 <br>
-        โรงเรียนโคกสำโรงวิทยา <br>
-        </p>
-      </div>
-    </div>
+    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
